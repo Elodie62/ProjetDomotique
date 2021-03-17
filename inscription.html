@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscription</title>
+    <link href="./css/ins.css" rel="stylesheet" />
+    <link href="./css/base.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <!--La navbar-->
+
+      <button class="btn">
+        <img
+          class="burger"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png"
+          alt="bouton burger"
+          height="20em"
+          width="20em"
+        />
+      </button>
+
+      <img class="logo" src="./images/logo.jpg" alt="Logo" height="50em" width="50em" />
+
+      <a class="btnSecondary" href="connect.html">Se connecter</a>
+    </header>
+
+    <form action="connect.html" class="ins">
+      <h2>S'inscrire:</h2>
+
+      <label for="Lastname"
+        >Nom :
+        <input id="Lastname" type="text" placeholder="Nom" />
+      </label>
+
+      <label for="Firstname"
+        >Prénom :
+        <input id="Firstname" type="text" placeholder="Prenom" />
+      </label>
+
+      <label for="Pseudo"
+        >Pseudo :
+        <input id="Pseudo" type="text" placeholder="Pseudo" />
+      </label>
+
+      <label for="dateBirthday"
+        >Date de naissance:
+        <input id="dateBirthday" type="date" placeholder="Date de naissance" />
+      </label>
+
+      <label for="Email" class="mail"
+        >Email :
+        <input id="Email" type="email" placeholder="e-mail" />
+      </label>
+
+      <label for="address"
+        >Adresse :
+        <input id="address" type="text" placeholder="Adresse" />
+      </label>
+
+      <label for="postCode"
+        >Code Postal :
+        <input id="postCode" type="text" placeholder="Code postal" />
+      </label>
+
+      <label for="city"
+        >Ville :
+        <input id="city" type="text" placeholder="Ville" />
+      </label>
+
+      <label for="phoneNumber"
+        >Numero de téléphone :
+        <input id="phoneNumber" type="tel" placeholder="Numéro de téléphone" />
+      </label>
+
+      <label for="password">
+        Mot de passe :
+        <input id="password" type="password" placeholder="Mot de passe" />
+      </label>
+
+      <input class="btnPrimary" type="submit" value="Valider" />
+    </form>
+
+    <div class="backdrop">
+      <nav>
+        <ul>
+          <li><a class="lien" href="index.html">Accueil</a></li>
+          <li><a class="lien" href="gestion_appareil.html">Mes appareils</a></li>
+          <li><a class="lien" href="Page-profil.html">Mon profil</a></li>
+          <li><a class="lien" href="page-edition.html">Editer mon profil</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
